@@ -15,11 +15,13 @@ package database;
 		}
 
 		public Product(int id, String name, int salary, int dept) {
+			
 			super();
 			this.id = id;
 			this.name = name;
 			this.salary = salary;
 			this.dept = dept;
+			System.out.println("git repo");
 		}
 
 		public int getId() {
