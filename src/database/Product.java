@@ -13,6 +13,9 @@ package database;
 		public Product() {
 			// TODO Auto-generated constructor stub
 		}
+		public void sum(){
+			
+		}
 
 		public Product(int id, String name, int salary, int dept) {
 			
@@ -21,9 +24,8 @@ package database;
 			this.name = name;
 			this.salary = salary;
 			this.dept = dept;
-			System.out.println("git repo");
+			
 		}
-
 		public int getId() {
 			return id;
 		}
